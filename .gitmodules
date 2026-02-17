@@ -1,0 +1,6 @@
+[submodule "Assets/Character/MonsterAndSkullAsset"]
+	path = Assets/Character/MonsterAndSkullAsset
+	url = https://github.com/Surkov204/MonsterAndSkullAsset.git
+[submodule "Assets/Character/Assets/Character/MonsterAndSkullAsset"]
+	path = Assets/Character/Assets/Character/MonsterAndSkullAsset
+	url = https://github.com/Surkov204/MonsterAndSkullAsset.git

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebd530178e9ab04c952b8ad1b01645f, type: 3}
+  m_Name: Bee
+  m_EditorClassIdentifier: 
+  cost: 150
+  placementCooldown: 3
+  prefab: {fileID: 1078563884581567146, guid: edbc989a9d12e7b4295723449589925d, type: 3}
+  maxHP: 175
+  attackRange: 3.8
+  damage: 35
+  attackRate: 0.5
+  attackTrigger: Attack
+  deathTrigger: Die
+  attackBool: isAttacking

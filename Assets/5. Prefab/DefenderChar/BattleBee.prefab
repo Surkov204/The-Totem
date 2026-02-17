@@ -1,0 +1,1571 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &318865851772530338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4903530405834013736}
+  m_Layer: 0
+  m_Name: battleBee_upperArmLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4903530405834013736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318865851772530338}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.08396388, y: 0.36577117, z: -0.5348355, w: 0.75704193}
+  m_LocalPosition: {x: 0.0075100856, y: 0.13030909, z: 0.1843901}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7753435744763915421}
+  m_Father: {fileID: 8786054864339128102}
+  m_LocalEulerAnglesHint: {x: 28.466824, y: 12.559297, z: -110.35894}
+--- !u!1 &399957147672660146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4799638910253844608}
+  m_Layer: 0
+  m_Name: battleBee_tail02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4799638910253844608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399957147672660146}
+  serializedVersion: 2
+  m_LocalRotation: {x: -2.8462007e-31, y: -8.65023e-32, z: 0.22714391, w: 0.9738612}
+  m_LocalPosition: {x: -0.17267074, y: 7.105427e-17, z: -4.3982063e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6409159694865579423}
+  m_Father: {fileID: 3461653432607894233}
+  m_LocalEulerAnglesHint: {x: 1.4847134e-11, y: -3.4015128e-11, z: 20.76551}
+--- !u!1 &495106428144564035
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 309246047635887579}
+  m_Layer: 0
+  m_Name: battleBee_handRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &309246047635887579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495106428144564035}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0024998933, y: -0.001145326, z: -0.00008612118, w: 0.99999624}
+  m_LocalPosition: {x: 0.4036367, y: -0.000000050443894, z: 0.000000114224186}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3119390632469888255}
+  m_Father: {fileID: 3831671070381339666}
+  m_LocalEulerAnglesHint: {x: -0.5389218, y: -61.75102, z: -70.47499}
+--- !u!1 &808606653856352763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7732336030564028204}
+  m_Layer: 0
+  m_Name: battleBee_secondWing02Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7732336030564028204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808606653856352763}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.10418443, y: -0.14150688, z: -0.18364532, w: 0.9671586}
+  m_LocalPosition: {x: -0.3347653, y: 3.907985e-16, z: 1.4210854e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 906335995541740824}
+  m_Father: {fileID: 7215947378235799882}
+  m_LocalEulerAnglesHint: {x: 7.080833, y: -22.297514, z: -14.545003}
+--- !u!1 &929436423168543049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4135618924353792494}
+  m_Layer: 0
+  m_Name: battleBee_head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4135618924353792494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929436423168543049}
+  serializedVersion: 2
+  m_LocalRotation: {x: -2.775558e-17, y: 2.775558e-17, z: -0.0497181, w: 0.9987633}
+  m_LocalPosition: {x: -0.09730385, y: 0, z: -4.4240987e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4480774690534659109}
+  - {fileID: 871770833479162734}
+  m_Father: {fileID: 9019603996286618999}
+  m_LocalEulerAnglesHint: {x: -4.431692, y: 7.0670066, z: -46.19306}
+--- !u!1 &1030703114533768014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7743363513086219779}
+  m_Layer: 0
+  m_Name: battleBee_upperlegLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7743363513086219779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030703114533768014}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.41580305, y: 0.90055406, z: 0.093735084, w: -0.08558065}
+  m_LocalPosition: {x: -0.020370962, y: -0.10322684, z: -0.18946889}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2224210065271095059}
+  m_Father: {fileID: 6691029471718539969}
+  m_LocalEulerAnglesHint: {x: 1.6040846, y: -170.09483, z: 47.47102}
+--- !u!1 &1078563884581567146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4710817302082222119}
+  - component: {fileID: 2610240895223420804}
+  - component: {fileID: 413523409520055729}
+  - component: {fileID: -323595987889738282}
+  - component: {fileID: 4852488073324126579}
+  - component: {fileID: 8683867446260147125}
+  - component: {fileID: 7465784827587996370}
+  m_Layer: 0
+  m_Name: BattleBee
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4710817302082222119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078563884581567146}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.5224984, z: 0, w: 0.8526403}
+  m_LocalPosition: {x: -0.42, y: 0.329, z: -4.11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 9009438161836035349}
+  - {fileID: 4401307714896879278}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -63, z: 0}
+--- !u!95 &2610240895223420804
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078563884581567146}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 6532f6e84a97b69489f5dca0dc993308, type: 3}
+  m_Controller: {fileID: 9100000, guid: 0809dba8e402017479f06e88e1ce5d15, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &413523409520055729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078563884581567146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3166eff2b65b92c4aaebf7e4adc7f2f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &-323595987889738282
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078563884581567146}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.89, z: 1}
+  m_Center: {x: 0, y: 1.25, z: 0}
+--- !u!114 &4852488073324126579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078563884581567146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08c1c494063123f4f89d607fde9e0d86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8683867446260147125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078563884581567146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b97c0780eaea704daff2ce38a927a8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 794be96db3cc3c54cbdbd340288acff0, type: 2}
+--- !u!114 &7465784827587996370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078563884581567146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8557a402b9161c4a8d1c17947fa48d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duaration: 0.35
+  ease: 27
+--- !u!1 &1531015734423417220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5963469031248185480}
+  m_Layer: 0
+  m_Name: battleBee_upperlegRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5963469031248185480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531015734423417220}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.90055406, y: -0.41580305, z: 0.08558065, w: 0.093735084}
+  m_LocalPosition: {x: -0.020371186, y: -0.10322707, z: 0.189469}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 155665885430076041}
+  m_Father: {fileID: 6691029471718539969}
+  m_LocalEulerAnglesHint: {x: 0.46086255, y: 150.2046, z: -128.55319}
+--- !u!1 &1564553598523266170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7361945300521686576}
+  m_Layer: 0
+  m_Name: battleBee_secondWingRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7361945300521686576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564553598523266170}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.41127843, y: -0.53939795, z: -0.42211068, w: 0.6014337}
+  m_LocalPosition: {x: 0.037970845, y: 0.053458042, z: -5.7720063e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7215947378235799882}
+  - {fileID: 421293923533431721}
+  m_Father: {fileID: 6691029471718539969}
+  m_LocalEulerAnglesHint: {x: -71.82067, y: -75.18048, z: -11.848132}
+--- !u!1 &1968827827252996037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 155665885430076041}
+  m_Layer: 0
+  m_Name: battleBee_lowerLegRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &155665885430076041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968827827252996037}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.035035837, y: -0.21805678, z: 0.23086098, w: 0.94759005}
+  m_LocalPosition: {x: 0.16243225, y: -0.00000055555023, z: -0.00000005451599}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5085539936201459041}
+  m_Father: {fileID: 5963469031248185480}
+  m_LocalEulerAnglesHint: {x: 18.977459, y: -35.09558, z: 38.995346}
+--- !u!1 &1971895343182294877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9093387782167882031}
+  m_Layer: 0
+  m_Name: battleBee_upperArmRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9093387782167882031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971895343182294877}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.3657713, y: 0.08396431, z: 0.7570418, w: 0.5348356}
+  m_LocalPosition: {x: 0.0075102495, y: 0.13030885, z: -0.18439}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3831671070381339666}
+  m_Father: {fileID: 8786054864339128102}
+  m_LocalEulerAnglesHint: {x: -32.015377, y: -23.393847, z: 92.54443}
+--- !u!1 &2372654695737777198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3119390632469888255}
+  m_Layer: 0
+  m_Name: battleBee_handTipRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3119390632469888255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2372654695737777198}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.20221713, y: -0.03933441, z: 0.10532343}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 309246047635887579}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2380704937629762938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5330351528290105483}
+  m_Layer: 0
+  m_Name: battleBee_firstWing03Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5330351528290105483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2380704937629762938}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0006745199, y: 0.02008263, z: -0.032340534, w: 0.9992749}
+  m_LocalPosition: {x: -0.385888, y: 5.684342e-16, z: 4.2632563e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7478946379961838944}
+  m_LocalEulerAnglesHint: {x: -0.002814491, y: 2.3027508, z: -3.7074058}
+--- !u!1 &2723416893619991791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6409159694865579423}
+  m_Layer: 0
+  m_Name: battleBee_tail03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6409159694865579423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2723416893619991791}
+  serializedVersion: 2
+  m_LocalRotation: {x: -2.5210783e-31, y: 6.905948e-33, z: 0.21824425, w: 0.9758942}
+  m_LocalPosition: {x: -0.17763853, y: 0, z: -7.474587e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4866719812810475593}
+  m_Father: {fileID: 4799638910253844608}
+  m_LocalEulerAnglesHint: {x: 3.7501963e-12, y: -1.1246323e-11, z: 19.984858}
+--- !u!1 &2879735376892750325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3831671070381339666}
+  m_Layer: 0
+  m_Name: battleBee_lowerArmRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3831671070381339666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2879735376892750325}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.009506345, y: -0.037432913, z: 0.5909681, w: 0.8057699}
+  m_LocalPosition: {x: 0.22695811, y: -0.00000006330716, z: 0.0000003347545}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 309246047635887579}
+  m_Father: {fileID: 9093387782167882031}
+  m_LocalEulerAnglesHint: {x: 2.5279937, y: -4.195485, z: 84.0909}
+--- !u!1 &3209769542809710525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4480774690534659109}
+  m_Layer: 0
+  m_Name: battleBee_horn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4480774690534659109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3209769542809710525}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.098543145, y: -2.842171e-16, z: -2.4499854e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4135618924353792494}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 10.224592}
+--- !u!1 &3228088498402390350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2224210065271095059}
+  m_Layer: 0
+  m_Name: battleBee_lowerLegLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2224210065271095059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3228088498402390350}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.035035837, y: -0.21805678, z: 0.23086098, w: 0.94759005}
+  m_LocalPosition: {x: -0.16243161, y: 0, z: 2.1316282e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1807375240737644130}
+  m_Father: {fileID: 7743363513086219779}
+  m_LocalEulerAnglesHint: {x: 12.141613, y: -28.092672, z: 30.18767}
+--- !u!1 &3230726268407524011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5334517498558005605}
+  m_Layer: 0
+  m_Name: battleBee_secondWing02Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5334517498558005605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3230726268407524011}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.10418443, y: -0.14150688, z: -0.18364532, w: 0.9671586}
+  m_LocalPosition: {x: 0.33476683, y: 0.0000007569915, z: -0.0000022202312}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7395053492944488608}
+  m_Father: {fileID: 421293923533431721}
+  m_LocalEulerAnglesHint: {x: 7.088193, y: -22.253607, z: -14.597923}
+--- !u!1 &3237042855524833325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 421293923533431721}
+  m_Layer: 0
+  m_Name: battleBee_secondWing01Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &421293923533431721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3237042855524833325}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9119151, y: 0.18842545, z: 0.35383216, w: 0.08780349}
+  m_LocalPosition: {x: 0.17190416, y: -0.019384667, z: 0.021540668}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5334517498558005605}
+  m_Father: {fileID: 7361945300521686576}
+  m_LocalEulerAnglesHint: {x: -25.735773, y: 170.8455, z: 179.51036}
+--- !u!1 &3263010423610640232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4401307714896879278}
+  m_Layer: 0
+  m_Name: battleBee_root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4401307714896879278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263010423610640232}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.2780028, y: 0.65016496, z: -0.2780028, w: 0.65016496}
+  m_LocalPosition: {x: -0, y: 1.3593758, z: -0.25487012}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6691029471718539969}
+  - {fileID: 3461653432607894233}
+  m_Father: {fileID: 4710817302082222119}
+  m_LocalEulerAnglesHint: {x: 14.241545, y: 101.114944, z: -117.68201}
+--- !u!1 &3637984554510784284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3461653432607894233}
+  m_Layer: 0
+  m_Name: battleBee_tail01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3461653432607894233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3637984554510784284}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.16326809, y: 0.98658174, z: -1.4160622e-17, w: -2.8947314e-16}
+  m_LocalPosition: {x: 0.12443711, y: -0.026877541, z: -1.4920032e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4799638910253844608}
+  m_Father: {fileID: 4401307714896879278}
+  m_LocalEulerAnglesHint: {x: 4.6116277e-15, y: -180, z: 17.306898}
+--- !u!1 &3764710744327194308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 871770833479162734}
+  m_Layer: 0
+  m_Name: battleBee_mouth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &871770833479162734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764710744327194308}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.10036138, y: 0.13814466, z: -7.906277e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4135618924353792494}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.0000010941438}
+--- !u!1 &4554499779017931943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 906335995541740824}
+  m_Layer: 0
+  m_Name: battleBee_secondWing03Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &906335995541740824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4554499779017931943}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.2896505, y: -2.4868996e-16, z: 4.2632563e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7732336030564028204}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4728796397243573046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 149834386416942014}
+  m_Layer: 0
+  m_Name: battleBee_spine02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &149834386416942014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4728796397243573046}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9854922, y: 0.16972075, z: 1.1076882e-18, w: 6.1943e-17}
+  m_LocalPosition: {x: -0.13370246, y: 0, z: 4.4353276e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7875499528845781956}
+  - {fileID: 8786054864339128102}
+  m_Father: {fileID: 6691029471718539969}
+  m_LocalEulerAnglesHint: {x: -5.455161e-16, y: -180, z: 160.58514}
+--- !u!1 &4763546282586962962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5085539936201459041}
+  m_Layer: 0
+  m_Name: battleBee_feetRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5085539936201459041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4763546282586962962}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.16541927, y: 0.00000019484919, z: 0.00000023936275}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 155665885430076041}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4929546782413034892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6691029471718539969}
+  m_Layer: 0
+  m_Name: battleBee_spine01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6691029471718539969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4929546782413034892}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -1.5265567e-16, z: 0.24775471, w: 0.9688228}
+  m_LocalPosition: {x: -0.1259007, y: -1.4210854e-16, z: 7.888609e-33}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7361945300521686576}
+  - {fileID: 149834386416942014}
+  - {fileID: 7743363513086219779}
+  - {fileID: 5963469031248185480}
+  m_Father: {fileID: 4401307714896879278}
+  m_LocalEulerAnglesHint: {x: 11.631645, y: -0.87435627, z: 16.218071}
+--- !u!1 &5114420876127522381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3519220454380566731}
+  m_Layer: 0
+  m_Name: battleBee_handTipLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3519220454380566731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5114420876127522381}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.20221652, y: 0.039333917, z: -0.10532381}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2369505995631423843}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5130575265687776314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7395053492944488608}
+  m_Layer: 0
+  m_Name: battleBee_secondWing03Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7395053492944488608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5130575265687776314}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.28964853, y: -0.00000102281, z: 0.0000063825973}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5334517498558005605}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5346557847758454055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2369505995631423843}
+  m_Layer: 0
+  m_Name: battleBee_handLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2369505995631423843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5346557847758454055}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0025003213, y: -0.0011455221, z: -0.00008613835, w: 0.99999624}
+  m_LocalPosition: {x: -0.40363666, y: 7.105427e-17, z: -5.684342e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3519220454380566731}
+  m_Father: {fileID: 7753435744763915421}
+  m_LocalEulerAnglesHint: {x: 4.3429246, y: -34.09009, z: -75.26134}
+--- !u!1 &5610701933105369765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3526185869987869163}
+  m_Layer: 0
+  m_Name: battleBee_firstWing03Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3526185869987869163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5610701933105369765}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0006745199, y: 0.02008263, z: -0.032340534, w: 0.9992749}
+  m_LocalPosition: {x: 0.38588732, y: -0.0000013603226, z: -0.0000026846797}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 674088235894632292}
+  m_LocalEulerAnglesHint: {x: -0.002814491, y: 2.3027508, z: -3.7074058}
+--- !u!1 &5844707850968096702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1807375240737644130}
+  m_Layer: 0
+  m_Name: battleBee_feetLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1807375240737644130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5844707850968096702}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.1654198, y: 4.6185276e-16, z: -1.0658141e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2224210065271095059}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6188584419348254830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2994807788888699147}
+  m_Layer: 0
+  m_Name: battleBee_firstWing01Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2994807788888699147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6188584419348254830}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.25197837, y: -0.46450815, z: 0.60506743, w: 0.59551024}
+  m_LocalPosition: {x: 0.020074284, y: 0.00047182536, z: 0.081684634}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 674088235894632292}
+  m_Father: {fileID: 7875499528845781956}
+  m_LocalEulerAnglesHint: {x: 73.87618, y: 91.0901, z: -148.41743}
+--- !u!1 &6649803939326715124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 674088235894632292}
+  m_Layer: 0
+  m_Name: battleBee_firstWing02Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &674088235894632292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6649803939326715124}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0027804598, y: 0.33403525, z: -0.009331108, w: 0.9425103}
+  m_LocalPosition: {x: 0.44730738, y: -0.0089991735, z: -0.030658053}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3526185869987869163}
+  m_Father: {fileID: 2994807788888699147}
+  m_LocalEulerAnglesHint: {x: 0.6574869, y: 39.024513, z: 10.135473}
+--- !u!1 &6926213957480027587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7875499528845781956}
+  m_Layer: 0
+  m_Name: battleBee_firstWingRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7875499528845781956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6926213957480027587}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.62060684, y: 0.68515605, z: -0.27383667, w: 0.26537108}
+  m_LocalPosition: {x: -0.0309126, y: -0.10908274, z: -4.5011093e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1196058310011673774}
+  - {fileID: 2994807788888699147}
+  m_Father: {fileID: 149834386416942014}
+  m_LocalEulerAnglesHint: {x: 44.79918, y: 178.0818, z: 83.54922}
+--- !u!1 &7234133498393000645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8786054864339128102}
+  m_Layer: 0
+  m_Name: battleBee_spine03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8786054864339128102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7234133498393000645}
+  serializedVersion: 2
+  m_LocalRotation: {x: -5.551115e-17, y: 2.7755576e-17, z: -0.33785987, w: 0.94119644}
+  m_LocalPosition: {x: -0.18012954, y: -1.7053025e-15, z: -3.862665e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 9019603996286618999}
+  - {fileID: 4903530405834013736}
+  - {fileID: 9093387782167882031}
+  m_Father: {fileID: 149834386416942014}
+  m_LocalEulerAnglesHint: {x: 6.801671e-15, y: -1.6170559e-14, z: -38.462517}
+--- !u!1 &7388100690448044547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3575784031686149147}
+  m_Layer: 0
+  m_Name: battleBee_tail05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3575784031686149147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7388100690448044547}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.18613613, y: 0.01980056, z: -6.08096e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4866719812810475593}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8119211536828471830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4866719812810475593}
+  m_Layer: 0
+  m_Name: battleBee_tail04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4866719812810475593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8119211536828471830}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.19854072, w: 0.98009264}
+  m_LocalPosition: {x: -0.17822644, y: -5.3290704e-17, z: -8.0900004e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3575784031686149147}
+  m_Father: {fileID: 6409159694865579423}
+  m_LocalEulerAnglesHint: {x: -2.417076, y: -4.9784994, z: -4.2236605}
+--- !u!1 &8297964200353900736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7753435744763915421}
+  m_Layer: 0
+  m_Name: battleBee_lowerArmLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7753435744763915421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8297964200353900736}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.009506345, y: -0.037432913, z: 0.5909681, w: 0.8057699}
+  m_LocalPosition: {x: -0.22695823, y: 5.3290704e-17, z: 7.105427e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2369505995631423843}
+  m_Father: {fileID: 4903530405834013736}
+  m_LocalEulerAnglesHint: {x: 3.5312214, y: -3.8550756, z: 97.605835}
+--- !u!1 &8306005918295556806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1196058310011673774}
+  m_Layer: 0
+  m_Name: battleBee_firstWing01Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1196058310011673774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8306005918295556806}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7761295, y: 0.2196751, z: -0.08397441, w: 0.5850763}
+  m_LocalPosition: {x: -0.08134, y: -0.0061388374, z: -0.020540774}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7478946379961838944}
+  m_Father: {fileID: 7875499528845781956}
+  m_LocalEulerAnglesHint: {x: -76.95579, y: -18.084444, z: 48.654865}
+--- !u!1 &8729793519340954935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9009438161836035349}
+  - component: {fileID: 7268420536826328774}
+  m_Layer: 0
+  m_Name: BattleBee
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9009438161836035349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8729793519340954935}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4710817302082222119}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &7268420536826328774
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8729793519340954935}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 756833c3743a4da099046c68ab9ee74c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 485692395704971104, guid: 6532f6e84a97b69489f5dca0dc993308, type: 3}
+  m_Bones:
+  - {fileID: 4401307714896879278}
+  - {fileID: 6691029471718539969}
+  - {fileID: 149834386416942014}
+  - {fileID: 8786054864339128102}
+  - {fileID: 9019603996286618999}
+  - {fileID: 4135618924353792494}
+  - {fileID: 4480774690534659109}
+  - {fileID: 871770833479162734}
+  - {fileID: 4903530405834013736}
+  - {fileID: 7753435744763915421}
+  - {fileID: 2369505995631423843}
+  - {fileID: 3519220454380566731}
+  - {fileID: 9093387782167882031}
+  - {fileID: 3831671070381339666}
+  - {fileID: 309246047635887579}
+  - {fileID: 3119390632469888255}
+  - {fileID: 7875499528845781956}
+  - {fileID: 1196058310011673774}
+  - {fileID: 7478946379961838944}
+  - {fileID: 5330351528290105483}
+  - {fileID: 2994807788888699147}
+  - {fileID: 674088235894632292}
+  - {fileID: 3526185869987869163}
+  - {fileID: 7743363513086219779}
+  - {fileID: 2224210065271095059}
+  - {fileID: 1807375240737644130}
+  - {fileID: 7361945300521686576}
+  - {fileID: 7215947378235799882}
+  - {fileID: 7732336030564028204}
+  - {fileID: 906335995541740824}
+  - {fileID: 421293923533431721}
+  - {fileID: 5334517498558005605}
+  - {fileID: 7395053492944488608}
+  - {fileID: 5963469031248185480}
+  - {fileID: 155665885430076041}
+  - {fileID: 5085539936201459041}
+  - {fileID: 3461653432607894233}
+  - {fileID: 4799638910253844608}
+  - {fileID: 6409159694865579423}
+  - {fileID: 4866719812810475593}
+  - {fileID: 3575784031686149147}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4401307714896879278}
+  m_AABB:
+    m_Center: {x: -0.15904352, y: 0.07194358, z: -0.000000029802322}
+    m_Extent: {x: 0.8889406, y: 1.0058386, z: 0.8620069}
+  m_DirtyAABB: 0
+--- !u!1 &8875103284972360305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7215947378235799882}
+  m_Layer: 0
+  m_Name: battleBee_secondWing01Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7215947378235799882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8875103284972360305}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.058498465, y: 0.28311267, z: -0.23056157, w: 0.9291214}
+  m_LocalPosition: {x: -0.17412642, y: -0.0057173627, z: -0.006182548}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7732336030564028204}
+  m_Father: {fileID: 7361945300521686576}
+  m_LocalEulerAnglesHint: {x: 26.00983, y: -2.1909804, z: -5.492466}
+--- !u!1 &8957838391605190163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9019603996286618999}
+  m_Layer: 0
+  m_Name: battleBee_neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9019603996286618999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8957838391605190163}
+  serializedVersion: 2
+  m_LocalRotation: {x: 5.551115e-17, y: 4.1633363e-17, z: 0.17990296, w: 0.98368436}
+  m_LocalPosition: {x: -0.1375787, y: 8.5265126e-16, z: -5.457137e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4135618924353792494}
+  m_Father: {fileID: 8786054864339128102}
+  m_LocalEulerAnglesHint: {x: 4.802392e-15, y: -1.0743002e-14, z: 20.615717}
+--- !u!1 &9156981661778101720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7478946379961838944}
+  m_Layer: 0
+  m_Name: battleBee_firstWing02Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7478946379961838944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9156981661778101720}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0027804598, y: 0.33403525, z: -0.009331108, w: 0.9425103}
+  m_LocalPosition: {x: -0.44730398, y: 0.009001838, z: 0.0306612}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5330351528290105483}
+  m_Father: {fileID: 1196058310011673774}
+  m_LocalEulerAnglesHint: {x: 0.6574869, y: 39.024517, z: 9.98297}

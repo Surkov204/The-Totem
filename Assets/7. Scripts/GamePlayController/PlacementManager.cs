@@ -147,7 +147,7 @@ public class PlacementManager : MonoBehaviour
         }
 
         Vector3 pos = grid.CellToWorldCenter(cellPos);
-        pos.y = 0.1f;
+        pos.y = -1f;
 
         bool isExploder =
             currentPrefab.GetComponent<ExplodeComponent>() != null;

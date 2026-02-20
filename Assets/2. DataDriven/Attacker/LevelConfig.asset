@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd5db9a7679d4a04eaa83ce543a2b45c, type: 3}
+  m_Name: LevelConfig
+  m_EditorClassIdentifier: 
+  totalDuration: 120
+  introText: Let's Rockkkk!
+  waves:
+  - startTime: 3
+    triggerMode: 0
+    isHugeWave: 0
+    hugeWaveWarningLeadTime: 0
+    waveTitle: First Wave
+    spawnEvents:
+    - delayFromWaveStart: 1
+      entries:
+      - prefab: {fileID: 386878460534283758, guid: b0ef5d90b7c94f148a7d039f1c06e247, type: 3}
+        count: 1
+        interval: 0
+        laneMode: 0
+        fixedLane: 1
+        overrideSpawnColumn: 0
+        spawnColumn: 0
+      gateMode: 3
+      remainingThreshold: 0
+      timeout: 10
+    - delayFromWaveStart: 10
+      entries:
+      - prefab: {fileID: 386878460534283758, guid: b0ef5d90b7c94f148a7d039f1c06e247, type: 3}
+        count: 1
+        interval: 0.8
+        laneMode: 1
+        fixedLane: 0
+        overrideSpawnColumn: 0
+        spawnColumn: 0
+      - prefab: {fileID: 4585995289687290102, guid: 5944d44c1b84c0f4c9f84d565ccc5779, type: 3}
+        count: 2
+        interval: 1
+        laneMode: 1
+        fixedLane: 0
+        overrideSpawnColumn: 0
+        spawnColumn: 0
+      gateMode: 3
+      remainingThreshold: 0
+      timeout: 20
+    - delayFromWaveStart: 21
+      entries:
+      - prefab: {fileID: 386878460534283758, guid: b0ef5d90b7c94f148a7d039f1c06e247, type: 3}
+        count: 3
+        interval: 1
+        laneMode: 1
+        fixedLane: 0
+        overrideSpawnColumn: 0
+        spawnColumn: 0
+      - prefab: {fileID: 4585995289687290102, guid: 5944d44c1b84c0f4c9f84d565ccc5779, type: 3}
+        count: 1
+        interval: 0.3
+        laneMode: 1
+        fixedLane: 0
+        overrideSpawnColumn: 0
+        spawnColumn: 0
+      gateMode: 3
+      remainingThreshold: 0
+      timeout: 20
+    - delayFromWaveStart: 31
+      entries:
+      - prefab: {fileID: 386878460534283758, guid: b0ef5d90b7c94f148a7d039f1c06e247, type: 3}
+        count: 5
+        interval: 0.8
+        laneMode: 1
+        fixedLane: 0
+        overrideSpawnColumn: 0
+        spawnColumn: 0
+      gateMode: 3
+      remainingThreshold: 0
+      timeout: 8
+  - startTime: 60
+    triggerMode: 2
+    isHugeWave: 1
+    hugeWaveWarningLeadTime: 2
+    waveTitle: Finnal Wave....
+    spawnEvents:
+    - delayFromWaveStart: 0
+      entries:
+      - prefab: {fileID: 386878460534283758, guid: b0ef5d90b7c94f148a7d039f1c06e247, type: 3}
+        count: 12
+        interval: 0.5
+        laneMode: 1
+        fixedLane: 0
+        overrideSpawnColumn: 0
+        spawnColumn: 0
+      gateMode: 0
+      remainingThreshold: 0
+      timeout: 20
+  specialEvents: []

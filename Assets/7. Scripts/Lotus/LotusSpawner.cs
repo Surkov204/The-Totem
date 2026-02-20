@@ -40,7 +40,7 @@ public class LotusSpawner : MonoBehaviour
             if (!grid.IsOccupied(cell))
             {
                 Vector3 pos = grid.CellToWorldCenter(cell);
-                pos.y = 3f;
+                pos.y = 2f;
 
                 GameObject lotus = Instantiate(lotusPrefab, pos, Quaternion.identity);
 

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: totem_middle_explode
   m_EditorClassIdentifier: 
   cost: 150
-  placementCooldown: 60
+  placementCooldown: 0
   prefab: {fileID: 1643478656884177191, guid: 1c1660ebc279e0241a1d1fa6a49e3ad9, type: 3}
   maxHP: 50
   attackRange: 100

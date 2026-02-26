@@ -9,7 +9,7 @@ public enum UIAnimationType
     SlideLeft,
     SlideRight,
     SlideTop,
-    SlideBottom
+    SlideBottom,
 }
 
 namespace JS
@@ -20,7 +20,7 @@ namespace JS
         [Serializable]
         public class UIPairExtend
         {
-            public UIBase prefab;                 // 👈 prefab quyết định TYPE
+            public UIBase prefab;                
             public CanvasType canvasType;
             public UIAnimationType animationType = UIAnimationType.FadeScale;
             public bool preload = false;

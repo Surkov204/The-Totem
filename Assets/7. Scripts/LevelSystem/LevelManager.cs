@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Zenject;
 
 public class LevelManager : MonoBehaviour
 {
@@ -17,7 +18,12 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private SunUIReference sunUI;
     [SerializeField] private QuestTitleUI questUI;
 
+    [SerializeField] private Transform cardContainerSlot;
+    [Inject] private DiContainer _container;
     private GameObject currentLevel;
+
+    public int CurrentLevelIndex { get; private set; }
+    public int TotalLevels => levelPrefabs != null ? levelPrefabs.Length : 0;
 
     void Awake()
     {
@@ -34,15 +40,27 @@ public class LevelManager : MonoBehaviour
 
     public void LoadLevel(int index)
     {
+        CurrentLevelIndex = index;
+
         if (currentLevel != null)
             Destroy(currentLevel);
 
-        currentLevel = Instantiate(levelPrefabs[index], levelSpawnPoint);
+        currentLevel = _container.InstantiatePrefab(
+            levelPrefabs[index],
+            levelSpawnPoint
+        );
 
         LevelSettings settings = currentLevel.GetComponent<LevelSettings>();
         if (settings != null)
         {
             settings.Setup(progressUI, sunUI, questUI);
+        }
+
+        LevelRunner runner = currentLevel.GetComponent<LevelRunner>();
+
+        if (runner != null)
+        {
+            runner.SetCardContainer(cardContainerSlot);
         }
     }
 }

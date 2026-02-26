@@ -1,5 +1,8 @@
-﻿using System.Collections;
+﻿using JS;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using Zenject;
 
 public class LevelRunner : MonoBehaviour
 {
@@ -14,6 +17,7 @@ public class LevelRunner : MonoBehaviour
 
     private ISpecialEventReceiver _special;
     private ILevelUI _ui;
+    private IUIService uiService;
 
     private float _timer;
     private int _waveIndex;
@@ -26,11 +30,41 @@ public class LevelRunner : MonoBehaviour
     private QuestTitleUI _questUI;
     private bool _isPlayingTitle;
 
+    private List<DefenderCardData> selectedCards;
+    private Transform cardContainer;
 
     private void Awake()
     {
         _special = specialEventReceiver as ISpecialEventReceiver;
         _ui = levelUI as ILevelUI;
+    }
+
+    [Inject]
+    public void Construct(IUIService uiService)
+    {
+        this.uiService = uiService;
+    }
+
+    public void SetCardContainer(Transform container)
+    {
+        cardContainer = container;
+    }
+
+    public void InjectSelectedPrefabs(List<GameObject> prefabs)
+    {
+        if (cardContainer == null)
+        {
+            Debug.LogError("CardContainer not inject.");
+            return;
+        }
+
+        foreach (Transform child in cardContainer)
+            Destroy(child.gameObject);
+
+        foreach (var prefab in prefabs)
+        {
+            Instantiate(prefab, cardContainer);
+        }
     }
 
     public void InjectQuestUI(QuestTitleUI questUI)
@@ -53,7 +87,7 @@ public class LevelRunner : MonoBehaviour
         _timer = 0f;
         _waveIndex = 0;
         _specialIndex = 0;
-        _running = false; // ⛔ chưa cho chạy ngay
+        _running = false; 
         _waveActive = false;
         _waveSpawningDone = false;
 
@@ -69,11 +103,22 @@ public class LevelRunner : MonoBehaviour
         HandleSpecialEvents();
         HandleWaveLogic();
 
-        if (_timer >= level.totalDuration)
+        if (CheckWin())
         {
             _running = false;
+            LevelProgression.OnWin(LevelManager.Instance.CurrentLevelIndex,
+                       LevelManager.Instance.TotalLevels);
+
+            uiService.Show<WinnerPopup>();
             _ui?.OnLevelEnd();
         }
+    }
+
+    private bool CheckWin()
+    {
+        return _waveIndex >= level.waves.Count &&
+               !_waveActive &&
+               AttackerManager.Instance.AliveCount() == 0;
     }
 
     private IEnumerator StartLevelFlow()

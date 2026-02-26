@@ -64,7 +64,7 @@ namespace JS
                 canvasGroup = gameObject.AddComponent<CanvasGroup>();
 
             canvasGroup.alpha = 0f;
-            gameObject.SetActive(false);
+          //  gameObject.SetActive(false);
 
             OnInit();
         }

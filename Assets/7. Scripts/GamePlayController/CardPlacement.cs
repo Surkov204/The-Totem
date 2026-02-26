@@ -1,6 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using Zenject;
+
+public enum CardMode
+{
+    Selection,
+    InSlot,
+    Gameplay
+}
 
 public class CardPlacement : MonoBehaviour,
     IPointerDownHandler,
@@ -20,7 +28,14 @@ public class CardPlacement : MonoBehaviour,
 
     [SerializeField] private CardCooldown cooldown;
 
+    [SerializeField] private CardMode mode = CardMode.Gameplay;
+
+    private CardSelectionManager selectionManager;
+
     private bool isSelected;
+    private bool isInSlot;
+    private CardSlotUI parentSlot;
+
 
     private void Awake()
     {
@@ -43,6 +58,28 @@ public class CardPlacement : MonoBehaviour,
         UpdateVisualState();
     }
 
+    [Inject]
+    public void Construct(CardSelectionManager manager)
+    {
+        selectionManager = manager;
+    }
+
+    public void SetMode(CardMode newMode)
+    {
+        mode = newMode;
+
+        if (mode == CardMode.Selection)
+        {
+            if (cooldown != null)
+                cooldown.enabled = false;
+        }
+        else
+        {
+            if (cooldown != null)
+                cooldown.enabled = true;
+        }
+    }
+
     private void UpdateVisualState()
     {
         if (data == null) return;
@@ -61,7 +98,23 @@ public class CardPlacement : MonoBehaviour,
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        TryBeginPlacement();
+        Debug.Log("Card Clicked");
+
+        switch (mode)
+        {
+            case CardMode.Selection:
+                selectionManager.SelectCard(gameObject);
+                break;
+
+            case CardMode.InSlot:
+                if (parentSlot != null)
+                    selectionManager.RemoveLastSelected();
+                break;
+
+            case CardMode.Gameplay:
+                TryBeginPlacement();
+                break;
+        }
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -81,6 +134,8 @@ public class CardPlacement : MonoBehaviour,
     {
         if (data == null) return;
         if (!cooldown.IsReady()) return;
+        if (mode != CardMode.Gameplay)
+            return;
         if (!SunManager.Instance.CanAfford(data.cost)) return;
 
         if (currentSelected != null && currentSelected != this)
@@ -105,13 +160,13 @@ public class CardPlacement : MonoBehaviour,
         Deselect();
     }
 
-public void ForceDeselect()
-{
-    isSelected = false;
+    public void ForceDeselect()
+    {
+        isSelected = false;
 
-    if (currentSelected == this)
-        currentSelected = null;
-}
+        if (currentSelected == this)
+            currentSelected = null;
+    }
 
     private void Select()
     {
@@ -124,5 +179,25 @@ public void ForceDeselect()
 
         if (currentSelected == this)
             currentSelected = null;
+    }
+
+    public DefenderData GetData()
+    {
+        return data;
+    }
+
+    public void SetData(DefenderData newData)
+    {
+        data = newData;
+    }
+
+    public void SetInSlot(bool value)
+    {
+        isInSlot = value;
+    }
+
+    public void SetParentSlot(CardSlotUI slot)
+    {
+        parentSlot = slot;
     }
 }

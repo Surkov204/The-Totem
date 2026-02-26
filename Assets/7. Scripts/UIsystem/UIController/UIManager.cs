@@ -37,7 +37,7 @@ namespace JS
                 instance.gameObject.SetActive(false);
                 spawned[pair.prefab.GetType()] = instance;
             }
-        }
+        }   
 
         public void Show<T>() where T : UIBase
         {
@@ -61,6 +61,8 @@ namespace JS
                 case CanvasType.Popup:
                     popupStack.Push(ui);
                     break;
+                case CanvasType.Loading:
+                    break;
             }
 
             ui.OnShow(pair.animationType);
@@ -81,11 +83,13 @@ namespace JS
 
             if (pair.destroyAfterHide)
             {
-                DOVirtual.DelayedCall(0.35f, () =>
-                {
-                    Destroy(ui.gameObject);
-                    spawned.Remove(type);
-                }, true);
+                //DOVirtual.DelayedCall(0.35f, () =>
+                //{
+                //    Destroy(ui.gameObject);
+                //    spawned.Remove(type);
+                //}, true);
+
+                ui.OnHide(pair.animationType);
             }
         }
 
@@ -136,6 +140,11 @@ namespace JS
 
             spawned[type] = ui;
             return ui;
+        }
+
+        public T Get<T>() where T : UIBase
+        {
+            return spawned.TryGetValue(typeof(T), out var ui) ? ui as T : null;
         }
     }
 }

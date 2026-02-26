@@ -52,6 +52,7 @@ public class LevelProgressUI : MonoBehaviour, ILevelUI
     public void OnLevelEnd()
     {
         slider.value = 1f;
+        Debug.Log("hoan thanh game");
     }
 
     // =========================

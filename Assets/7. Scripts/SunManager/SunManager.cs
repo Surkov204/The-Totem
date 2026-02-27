@@ -7,12 +7,19 @@ public class SunManager : MonoBehaviour
     public static SunManager Instance;
 
     [SerializeField] private int currentSun = 100;
-    [SerializeField] private TextMeshProUGUI sunText;
     [SerializeField] private Transform sunIconWorldTarget;
+    private TextMeshProUGUI sunText;
 
     private void Awake()
     {
         Instance = this;
+        UpdateUI();
+    }
+
+    public void InjectUI(TextMeshProUGUI text)
+    {
+        sunText = text;
+        Debug.Log(text.text);
         UpdateUI();
     }
 

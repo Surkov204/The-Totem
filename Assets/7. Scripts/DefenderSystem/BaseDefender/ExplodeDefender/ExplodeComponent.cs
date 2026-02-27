@@ -6,7 +6,6 @@ public class ExplodeComponent : BaseDefender
     public enum Shape { Tile3x3, Tile5x5, Lane, Column }
 
     [SerializeField] private Shape shape = Shape.Tile3x3;
-    [SerializeField] private float explodeDelay = 0.15f;
     [SerializeField] private GameObject explosionVFX;
     private bool exploded;
 

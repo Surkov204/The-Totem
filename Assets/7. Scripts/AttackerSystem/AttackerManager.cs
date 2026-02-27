@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class AttackerManager : MonoBehaviour
@@ -63,5 +62,25 @@ public class AttackerManager : MonoBehaviour
                     yield return attacker;
             }
         }
+    }
+
+    public int AliveCount()
+    {
+        int count = 0;
+
+        foreach (var pair in _byLane)
+        {
+            var list = pair.Value;
+            if (list == null) continue;
+
+            for (int i = 0; i < list.Count; i++)
+            {
+                var a = list[i];
+                if (a != null && !a.IsDead)
+                    count++;
+            }
+        }
+
+        return count;
     }
 }

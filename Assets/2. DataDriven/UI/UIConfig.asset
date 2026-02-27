@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d01368dba136b3d4fb1fac81a7c6e65a, type: 3}
+  m_Name: UIConfig
+  m_EditorClassIdentifier: 
+  uiList:
+  - prefab: {fileID: 1709043055617897249, guid: 938489d32e666624a8b5747c71dfeaf3, type: 3}
+    canvasType: 2
+    animationType: 0
+    preload: 0
+    destroyAfterHide: 1
+  - prefab: {fileID: 6949833342913825279, guid: c321f8138a3197140b54e9c386cea1a9, type: 3}
+    canvasType: 2
+    animationType: 0
+    preload: 0
+    destroyAfterHide: 1
+  - prefab: {fileID: 7321686817260543359, guid: dcb5436e275cae0478c52a81300f1d5a, type: 3}
+    canvasType: 2
+    animationType: 0
+    preload: 0
+    destroyAfterHide: 1
+  - prefab: {fileID: 6531625977457120518, guid: 7a284a438db77114f989391860cd8763, type: 3}
+    canvasType: 2
+    animationType: 0
+    preload: 0
+    destroyAfterHide: 1
+  - prefab: {fileID: 1223045589280183929, guid: d639b869ec70f584db2309329cb3593f, type: 3}
+    canvasType: 2
+    animationType: 0
+    preload: 0
+    destroyAfterHide: 1
+  - prefab: {fileID: 1462075689440574107, guid: 33fe9759afe554644965f2bbabe54784, type: 3}
+    canvasType: 2
+    animationType: 0
+    preload: 0
+    destroyAfterHide: 1
+  - prefab: {fileID: 1508553051829166234, guid: 00ac354f9f773974aa2f6147cfac5f20, type: 3}
+    canvasType: 2
+    animationType: 0
+    preload: 0
+    destroyAfterHide: 1
+  - prefab: {fileID: 197910026256135209, guid: b7611f6e1fa4fdd48bb8936ea09f5075, type: 3}
+    canvasType: 2
+    animationType: 0
+    preload: 0
+    destroyAfterHide: 1

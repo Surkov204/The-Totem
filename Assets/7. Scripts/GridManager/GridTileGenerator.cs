@@ -9,8 +9,8 @@ public class GridTileGenerator : MonoBehaviour
     public float cellSize = 1f;
 
     [Header("Prefabs")]
-    public GameObject tilePrefabA;   // kéo cube A
-    public GameObject tilePrefabB;   // kéo cube B
+    public GameObject tilePrefabA;   
+    public GameObject tilePrefabB;   
 
     [Header("Parent")]
     public Transform tileRoot;
